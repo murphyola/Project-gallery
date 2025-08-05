@@ -1,0 +1,101 @@
+<!-- Team Section -->
+   <section id="team" class="team section">
+
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+        <h2>Team</h2>
+    </div>
+    <!-- End Section Title -->
+
+    <div  class = "team-sec">
+        <div class="team-img">
+            
+            <img src="/img/team-1.jpg"  alt="" >
+
+      </div >
+        <div class="team-info">
+       
+                  <h4>Alhhaji Tajudeen Akinwale</h4> 
+                  <span>Chairman Tasco Steel Construction Limited</span>
+        </div>
+    </div>
+
+    <div detailinfo>
+    <p>
+        Alhaji Tajudeen Akinwale has over 40years experience in the steel industries. He bring unparalled expertise and insight to the table. 
+        From fabrication frameworks to complex structural designs. <br> His career has spanned decades of innovation, technological advancement and industry evolution. He had the previlage of working on  numerous
+        high profile projects,collaborating with esteemed clients, and mentoring talented professionals. His dedication to quality, safety, and precision has earned him a reputation as a trusted expert in the field. He is passionate about sharing 
+        knowledge and experience to drive excellence and innovation in steel construction.
+   
+    </p>
+    </div>
+
+    
+
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-5">
+
+            <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="200">
+                <div class="team-member">
+                    <div class="member-img">
+                        <img src="/img/team-1.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="member-info">
+                        <div class="social">
+                            <a href=""><i class="bi bi-twitter-x"></i></a>
+                            <a href=""><i class="bi bi-facebook"></i></a>
+                            <a href=""><i class="bi bi-instagram"></i></a>
+                            <a href=""><i class="bi bi-linkedin"></i></a>
+                        </div>
+                        <h4>Walter White</h4>
+                        <span>Chief Executive Officer</span>
+                    </div>
+                </div>
+            </div>
+            <!-- End Team Member -->
+
+            <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="400">
+                <div class="team-member">
+                    <div class="member-img">
+                        <img src="/img/team-1.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="member-info">
+                        <div class="social">
+                            <a href=""><i class="bi bi-twitter-x"></i></a>
+                            <a href=""><i class="bi bi-facebook"></i></a>
+                            <a href=""><i class="bi bi-instagram"></i></a>
+                            <a href=""><i class="bi bi-linkedin"></i></a>
+                        </div>
+                        <h4>Sarah Jhonson</h4>
+                        <span>Product Manager</span>
+                    </div>
+                </div>
+            </div>
+            <!-- End Team Member -->
+
+            <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="600">
+                <div class="team-member">
+                    <div class="member-img">
+                        <img src="/img/team-1.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="member-info">
+                        <div class="social">
+                            <a href=""><i class="bi bi-twitter-x"></i></a>
+                            <a href=""><i class="bi bi-facebook"></i></a>
+                            <a href=""><i class="bi bi-instagram"></i></a>
+                            <a href=""><i class="bi bi-linkedin"></i></a>
+                        </div>
+                        <h4>William Anderson</h4>
+                        <span>CTO</span>
+                    </div>
+                </div>
+            </div>
+            <!-- End Team Member -->
+
+        </div>
+
+    </div>
+
+</section>
+<!-- /Team Section -->

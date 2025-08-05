@@ -1,0 +1,191 @@
+{% extends "base.html" %}
+{% block title %}People{% endblock %}
+
+{% block content %}
+   <nav> 
+    
+     <!-- Checkbox for toggling menu -->
+     <input type="checkbox" id="check">
+    
+     <!-- Menu icon -->
+     <label for="check" class="checkbtn">
+     <i class="fas fa-bars"></i>
+     </label>
+    
+     <!-- Site logo -->
+     <img id="banner" src="/img/logo-tasco.jpg" alt="Text" height="80">
+    
+    <ul>
+      <li><a class="active" href="{{ url_for('index') }}">Home</a></li>
+      <li><a href="{{ url_for('proj') }}">Project Gallery</a></li>
+      <li><a href="{{ url_for('cont') }}">Contact</a></li>
+      <li><a href="{{ url_for('about') }}">About</a></li>
+      <li><a href="#">Teams</a></li>
+      
+    </ul>
+   </nav>
+   
+
+      <!-- Team Section -->
+   <section id="team" class="team section">
+
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+        <h2>Team</h2>
+    </div>
+    <!-- End Section Title -->
+
+    <div  class = "team-sec">
+        <div class="team-img">
+            
+            <img src="/img/pop.png"   alt="" >
+
+        </div >
+        <div class="team-info">
+       
+                  <h4>Alhhaji Tajudeen Akinwale</h4> 
+                  <span>Chairman Tasco Steel Construction Limited</span>
+        </div>
+    </div>
+
+    <div detailinfo>
+    <p>
+        Alhaji Tajudeen Akinwale has over 40years experience in the steel industries. He bring unparalled expertise and insight to the table. 
+        From fabrication frameworks to complex structural designs. <br> His career has spanned decades of innovation, technological advancement and industry evolution. He had the previlage of working on  numerous
+        high profile projects,collaborating with esteemed clients, and mentoring talented professionals. His dedication to quality, safety, and precision has earned him a reputation as a trusted expert in the field. He is passionate about sharing 
+        knowledge and experience to drive excellence and innovation in steel construction.
+   
+    </p>
+    </div>
+
+    
+
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-5">
+
+            <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="200">
+                <div class="team-member">
+                    <div class="member-img">
+                        <img src="/img/team-2.png" class="img-fluid" alt="" height="50">
+                    </div>
+                    <div class="member-info">
+                        <div class="social">
+                            <a href=""><i class="bi bi-twitter-x"></i></a>
+                            <a href=""><i class="bi bi-facebook"></i></a>
+                            <a href=""><i class="bi bi-instagram"></i></a>
+                            <a href=""><i class="bi bi-linkedin"></i></a>
+                        </div>
+                        <h4>Walter White</h4>
+                        <span>Chief Executive Officer</span>
+                    </div>
+                </div>
+            </div>
+            <!-- End Team Member -->
+
+            <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="400">
+                <div class="team-member">
+                    <div class="member-img">
+                        <img src="/img/team-2.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="member-info">
+                        <div class="social">
+                            <a href=""><i class="bi bi-twitter-x"></i></a>
+                            <a href=""><i class="bi bi-facebook"></i></a>
+                            <a href=""><i class="bi bi-instagram"></i></a>
+                            <a href=""><i class="bi bi-linkedin"></i></a>
+                        </div>
+                        <h4>Sarah Jhonson</h4>
+                        <span>Product Manager</span>
+                    </div>
+                </div>
+            </div>
+            <!-- End Team Member -->
+
+            <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="600">
+                <div class="team-member">
+                    <div class="member-img">
+                        <img src="/img/team-2.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="member-info">
+                        <div class="social">
+                            <a href=""><i class="bi bi-twitter-x"></i></a>
+                            <a href=""><i class="bi bi-facebook"></i></a>
+                            <a href=""><i class="bi bi-instagram"></i></a>
+                            <a href=""><i class="bi bi-linkedin"></i></a>
+                        </div>
+                        <h4>William Anderson</h4>
+                        <span>CTO</span>
+                    </div>
+                </div>
+            </div>
+            <!-- End Team Member -->
+
+        </div>
+
+    </div>
+
+</section>
+<!-- /Team Section -->
+
+
+  <footer id="footer" class="footer dark-background">
+
+    <div class="container footer-top">
+        <div class="row gy-4">
+            <div class="col-lg-4 col-md-6 footer-about">
+                <a href="" class="logo d-flex align-items-center">
+                    <span class="sitename">Tasco Steel Construction Limited</span>
+                </a>
+                <div class="footer-contact pt-3">
+                    <p>No. 1 Gashash Street</p>
+                    <p>Banawa Kaduna. Kaduna State</p>
+                    <p class="mt-3"><strong>Phone:</strong> <span>+2348032980634,+2348067495395</span></p>
+                    <p><strong>Email:</strong> <span>info@example.com</span></p>
+                </div>
+                <div class="social-links d-flex mt-4">
+                    <a href=""><i class="bi bi-twitter-x"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-3 footer-links">
+                <h4>Useful Links</h4>
+                <ul>
+                    <li><a class="active" href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="{{ url_for('proj') }}">Our Projects</a></li>
+                    <li><a href="{{ url_for('cont') }}">Contact</a></li>
+                    <li><a href="#">Privacy policy</a></li>
+                </ul>
+            </div>
+
+            <div class="col-lg-4 col-md-4 footer-links">
+                <h4>Our Services</h4>
+                <ul>
+                    <li><a href="#">Rafters</a></li>
+                    <li><a href="#">Bretway Tanks</a></li>
+                    <li><a href="#">Storage tanks</a></li>
+                    <li><a href="#">Wear Houses</a></li>
+                    <li><a href="#">General metal works Design</a></li>
+                </ul>
+            </div>
+
+            
+
+        </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">Tasco Mental Construction</strong> <span>All Rights Reserved</span></p>
+        
+    </div>
+
+  </footer>
+
+
+
+
+{% endblock %}

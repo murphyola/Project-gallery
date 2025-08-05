@@ -1,0 +1,29 @@
+.about_section .detail-box h2 {
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        
+.about_section .detail-box p {
+            margin-top: 10px;
+        }
+.about_section .detail-box a {
+            margin-top: 15px;
+            display: inline-block;
+            font-family: 'Merriweather Sans', sans-serif;
+            text-transform: uppercase;
+            padding: 10px 45px;
+            background-color: #0355cc;
+            border: 1px solid #0355cc;
+            border-radius: 2px;
+            color: #ffffff;
+        }
+        
+        .about_section .detail-box a:hover {
+            background-color: transparent;
+            color: #0355cc;
+        }
+        
+        .about_section .img-box img {
+            width: 500px;
+            height: 320px;
+        }
