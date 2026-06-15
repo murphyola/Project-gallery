@@ -24,7 +24,7 @@
     </ul>
    </nav>
    <!-- Site logo -->
-    <img id="con" src="\img\Bretwaykogi.jpg">
+    <img id="con" src="\img\bretbougr.jpg">
 
     <!-- Section Title -->
   <section>  
@@ -61,7 +61,7 @@
              <i class="bi bi-envelope flex-shrink-0"></i>
              <div>
                <h3>Email Us</h3>
-               <p>info@example.com</p>
+               <p>tasco263@gmail.com</p>
              </div>
      
            </div> <!-- End of Items -->
@@ -69,7 +69,17 @@
        </div>
 
        <div class="col-md-7">
-            <form form method="POST" class="form-py" data-aos="fade-up" data-aos-delay="200" action="/send_email">
+            {% with messages = get_flashed_messages() %}
+              {% if messages %}
+                {% for message in messages %}
+                  <div class="alert alert-success">
+                    {{ message }}
+                  </div>
+                {% endfor %}
+              {% endif %}
+            {% endwith %}    
+            <form  method="POST" class="form-py" data-aos="fade-up" data-aos-delay="200" action="/send_email">
+
                 <div class="row gy-4">
 
                     <div class="col-md-6">
@@ -93,7 +103,7 @@
 
                     <div class="col-md-4 btn btn-primary" style="text-allgn:center;">
                         
-                      <button type="submit"``>Send Message</button>
+                      <button type="submit">Send Message</button>
                     </div>
                 </div>
           
@@ -116,7 +126,7 @@
                     <p>No. 1 Gashash Street</p>
                     <p>Banawa Kaduna. Kaduna State</p>
                     <p class="mt-3"><strong>Phone:</strong> <span>+2348032980634,+2348067495395</span></p>
-                    <p><strong>Email:</strong> <span>info@example.com</span></p>
+                    <p><strong>Email:</strong> <span>tasco263@gmail.com</span></p>
                 </div>
                 <div class="social-links d-flex mt-4">
                     <a href=""><i class="bi bi-twitter-x"></i></a>
